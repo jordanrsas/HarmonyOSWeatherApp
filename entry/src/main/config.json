@@ -1,0 +1,80 @@
+{
+  "app": {
+    "bundleName": "com.dtse.cjra.weatherapp",
+    "vendor": "",
+    "version": {
+      "code": 10,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.dtse.cjra.weatherapp",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "internet",
+        "usedScene": {
+          "ability": [
+            "com.dtse.cjra.weatherapp.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "location to get weather",
+        "usedScene": {
+          "ability": [
+            "com.dtse.cjra.weatherapp.MainAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.dtse.cjra.weatherapp.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "WeatherApp",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

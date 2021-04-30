@@ -1,0 +1,56 @@
+{
+  "color": [
+    {
+      "name": "colorPrimary",
+      "value": "#E6000000"
+    },
+    {
+      "name": "colorSecondary",
+      "value": "#99000000"
+    },
+    {
+      "name": "colorListDivider",
+      "value": "#33000000"
+    },
+    {
+      "name": "card1BackgroundStart",
+      "value": "#11A0C4"
+    },
+    {
+      "name": "green",
+      "value": "#11A899"
+    },
+    {
+      "name": "lila",
+      "value": "#935CDD"
+    },
+    {
+      "name": "purple",
+      "value": "#7645E1"
+    },
+    {
+      "name": "pink",
+      "value": "#E05CB7"
+    },
+    {
+      "name": "yellow",
+      "value": "#E09C50"
+    },
+    {
+      "name": "morado",
+      "value": "#6452D9"
+    },
+    {
+      "name": "blueLight",
+      "value": "#65B8D0"
+    },
+    {
+      "name": "whiteColor",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "greenColor",
+      "value": "#FF08B45D"
+    }
+  ]
+}

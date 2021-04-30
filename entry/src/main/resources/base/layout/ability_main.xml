@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:blueLight"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_city"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="$string:cityLabelHint"
+        ohos:text_alignment="center"
+        ohos:text_size="$float:textSize30"
+        ohos:top_margin="$float:marginXXL"/>
+
+    <Text
+        ohos:id="$+id:text_temperature"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="$string:tempLabelHint"
+        ohos:text_alignment="center"
+        ohos:text_size="$float:textSize50"
+        ohos:top_margin="$float:margin"/>
+
+    <Text
+        ohos:id="$+id:text_date"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="$string:dateLabelHint"
+        ohos:text_alignment="center"
+        ohos:text_size="$float:textSize20"
+        ohos:top_margin="$float:margin"/>
+
+    <ScrollView
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:top_margin="$float:margin"
+        ohos:weight="1">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$color:whiteColor"
+            ohos:orientation="vertical"
+            ohos:padding="$float:padding">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <Image
+                    ohos:height="$float:weatherDetailImageSize"
+                    ohos:width="$float:weatherDetailImageSize"
+                    ohos:image_src="$media:temperature"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:min_max_temperature"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:start_margin="$float:margin20"
+                    ohos:text_size="$float:textSizeNormal"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="$float:margin20">
+
+                <Image
+                    ohos:height="$float:weatherDetailImageSize"
+                    ohos:width="$float:weatherDetailImageSize"
+                    ohos:image_src="$media:drop"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:humidity"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:start_margin="$float:margin20"
+                    ohos:text_size="$float:textSizeNormal"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="$float:margin20">
+
+                <Image
+                    ohos:height="$float:weatherDetailImageSize"
+                    ohos:width="$float:weatherDetailImageSize"
+                    ohos:image_src="$media:anemometer"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:wind_speed"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:start_margin="$float:margin20"
+                    ohos:text_size="$float:textSizeNormal"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="$float:margin20">
+
+                <Image
+                    ohos:height="$float:weatherDetailImageSize"
+                    ohos:width="$float:weatherDetailImageSize"
+                    ohos:image_src="$media:sunrise"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:sunrise"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:start_margin="$float:margin20"
+                    ohos:text_size="$float:textSizeNormal"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="$float:margin20">
+
+                <Image
+                    ohos:height="$float:weatherDetailImageSize"
+                    ohos:width="$float:weatherDetailImageSize"
+                    ohos:image_src="$media:sunset"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:sunset"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:start_margin="$float:margin20"
+                    ohos:text_size="$float:textSizeNormal"/>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+    </ScrollView>
+
+</DirectionalLayout>

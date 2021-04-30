@@ -1,0 +1,40 @@
+{
+  "float": [
+    {
+      "name": "textSizeNormal",
+      "value": "18fp"
+    },
+    {
+      "name": "textSize20",
+      "value": "20fp"
+    },
+    {
+      "name": "textSize30",
+      "value": "30fp"
+    },
+    {
+      "name": "textSize50",
+      "value": "50fp"
+    },
+    {
+      "name": "marginXXL",
+      "value": "75vp"
+    },
+    {
+      "name": "margin",
+      "value": "15vp"
+    },
+    {
+      "name": "margin20",
+      "value": "20vp"
+    },
+    {
+      "name": "padding",
+      "value": "30vp"
+    },
+    {
+      "name": "weatherDetailImageSize",
+      "value": "40vp"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('')
+            storePassword ''
+            keyAlias ''
+            keyPassword ''
+            signAlg ''
+            profile file('')
+            certpath file('')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile 'junit:junit:4.12'
+
+    implementation project(':data')
+    implementation project(':domain')
+
+    api 'io.reactivex.rxjava3:rxjava:3.0.3'
+    implementation presentationDependencies.values()
+}

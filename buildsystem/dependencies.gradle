@@ -1,0 +1,28 @@
+ext {
+    compileSdkVersion = 4
+    compatibleSdkVersion = 4
+
+
+    rxJavaVersion = '3.0.3'
+    rxohosVersion = '1.0.0'
+    gsonVersion = '2.8.2'
+    rxohosVersion = '1.0.0'
+    okHttpVersion = '4.9.1'
+    retrofitVersion = '2.9.0'
+
+    dataDependencies = [
+            rxJava           : "io.reactivex.rxjava3:rxjava:${rxJavaVersion}",
+            okHttp           : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogger     : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            gson             : "com.google.code.gson:gson:${gsonVersion}",
+            retrofit         : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitConverter: "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofitAdapter  : "com.squareup.retrofit2:adapter-rxjava3:${retrofitVersion}"
+    ]
+
+    domainDependencies = []
+
+    presentationDependencies = [
+            rxohos: "io.openharmony.tpc.thirdlib:Rxohos:${rxohosVersion}"
+    ]
+}

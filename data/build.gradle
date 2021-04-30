@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(":domain")
+
+    implementation dataDependencies.values()
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
+
+repositories {
+    mavenCentral()
+}

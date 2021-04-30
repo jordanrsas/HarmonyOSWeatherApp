@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "WeatherApp"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "cityLabelHint",
+      "value": "City"
+    },
+    {
+      "name": "tempLabelHint",
+      "value": "--°"
+    },
+    {
+      "name": "dateLabelHint",
+      "value": "Date"
+    }
+  ]
+}
