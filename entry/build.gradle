@@ -2,13 +2,7 @@ apply plugin: 'com.huawei.ohos.hap'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('')
-            storePassword ''
-            keyAlias ''
-            keyPassword ''
-            signAlg ''
-            profile file('')
-            certpath file('')
+
         }
     }
     compileSdkVersion 4
