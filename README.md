@@ -60,8 +60,9 @@ The Domain Layer contains the business logic. Use case will ask the Data layer t
 Data layer manages application data, i.e. retrieve data from the network, manage data cache or from a DB.
 
 Once we have installed the application you will see the following:
-![App](assets/Capture.PNG?raw=true "Weather App")
-![App2](assets/Capture2.PNG?raw=true "Weather App 2")
+| ![App](assets/Capture.PNG?raw=true "Weather App")  | ![App2](assets/Capture2.PNG?raw=true "Weather App 2") |
+
+
 
 References:
 
